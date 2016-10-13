@@ -44,7 +44,7 @@ func main() {
 	}
 
 	target := "/mnt/tmp"
-	if len(os.Args) >= 2 && len(os.Args[2]) > 0 {
+	if len(os.Args) >= 3 && len(os.Args[2]) > 0 {
 		target = os.Args[2]
 	}
 
