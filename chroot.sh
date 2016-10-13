@@ -1,5 +1,4 @@
 # run these commands as part of chroot
-echo "args ${#}"
 if test ${#} -eq 0 ; then
   echo "Usage:  `basename $0` <mount point>"
   exit 1
